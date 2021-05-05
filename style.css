@@ -9,7 +9,7 @@ body {
     ),
     url(https://www.trbimg.com/img-5a98a27d/turbine/la-1519952505-ssl2ue3yzt-snap-image);
 }
-img {
+img.image {
   display: block;
   margin: 0 auto;
   max-width: 55%;
@@ -18,14 +18,16 @@ img {
 h1 {
   font-family: "Krona One";
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 h2 {
   font-family: "Krona One";
   font-size: smaller;
   text-align: center;
   font-weight: 500;
-  margin: 0 auto 15px;
+  margin: 0 auto 12px;
   text-transform: uppercase;
 }
 button {
@@ -39,8 +41,8 @@ button {
     #f6b142,
     #ed3945
   );
-  margin: 20px auto;
-  padding: 6px 30px;
+  margin: 15px auto;
+  padding: 15px 30px;
   border: 0.5px solid rgb(161, 161, 161);
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
@@ -51,13 +53,14 @@ button:hover {
   cursor: pointer;
 }
 iframe {
-  width: 49.5%;
-  height: 49.5%;
+  width: 49%;
+  height: 49%;
 }
-.logo {
+img.logo {
   display: block;
-  max-width: 35%;
+  max-width: 30%;
   margin: 0 auto;
+  padding: 0;
 }
 .text-background {
   text-align: justify;
@@ -74,6 +77,7 @@ iframe {
 .video-container {
   display: inline-flex;
   justify-content: center;
+  white-space: nowrap;
 }
 .description,
 .link-netflix {
